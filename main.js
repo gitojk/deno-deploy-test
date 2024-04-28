@@ -10,7 +10,7 @@ Deno.serve(async (req) => {
 
   return new Response(body, {
     headers: {
-      'Access-Control-Allow-Origin': '*', // ここはあとできちんと設定する
+      'Access-Control-Allow-Origin': 'https://gitojk.github.io',
       'content-type': 'application/json; charset=utf-8',
     },
   });
